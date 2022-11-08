@@ -1,0 +1,26 @@
+Aprendendo o uso comando "tag"
+
+1) Git tag ---serve para consultar a existencia ou nao de tags
+
+2) git tag -a v1.0 -m "Versao 0.0" ---cria tag na versao 1.0 e com respectiva descricao
+
+3)git show v0.0 ---para verificar a versao da tag que pretendemos trabalhar com ela
+
+2) git tag -d v0.0 ----delectar uma tag v0.0
+
+3) git checkout v0.0 --- trocar a versao ou ponteiro do sistema com tag v0.0 que uma vez  esteve apos ultimo commit
+
+
+_____________________________
+
+Branches
+
+master -- e branch principal 
+
+git branch teste --criando um ambiente branch  de teste 
+
+git checkout teste --serve para  trocar o work directry do principal ou producao para teste(backup)
+
+git checkout -b teste ---desta forma troca directo
+
+git merge teste
