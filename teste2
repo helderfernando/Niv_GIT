@@ -1,0 +1,18 @@
+Comandos git:
+
+1. Git init ----seve para inicializar o contrololo de versionamento
+
+2. Git add ---- serve para adicionar arquivos do work directory e passar para a sala de espera(stage area)
+ Por exemplo:
+
+     a) Git add . --- este comando adiciona todos arquivos para o controlo de versao;
+     b) Git add *.txt ou *.doc, *.pdf ---adiciona o controlo por especificidade do tipo
+      de ficheiro;
+        
+3.Git commint --- serve para tirar um arquivo do stage area
+ para confirmar qualquer mudanca feita  
+
+    a) Git diff -- serve para visualizar ou consultar as modificacoes feitas em um arquivo
+
+
+
